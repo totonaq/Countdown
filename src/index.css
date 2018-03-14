@@ -1,0 +1,39 @@
+body {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: column nowrap;
+	height: 100vh;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+h1.main-heading {
+	margin: 50px 0 0;
+}
+p.description {
+	color: #8a8a8a;
+	margin: 10px 0 50px;
+	padding: 0;
+}
+footer {
+	background-color: #ececec;
+	
+	padding: 1rem 0;
+	text-align: center;
+}
+footer h5 {
+	margin: 0;
+	padding: 0;
+}
+footer h5 a {
+	color: #309dce;
+	font-family: "Lato","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	
+	text-decoration: none;
+	text-transform: uppercase;
+}
